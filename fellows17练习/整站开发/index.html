@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/common.css"/>
+</head>
+<body>
+        <div id="header">
+            <div class="warpper">
+                <div id="logo">
+                    <a href="#">
+                        <img src="img/log1.png" alt=""/>
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li><a href="#">About</a></li>
+                    <li class="active"><a href="#">Services</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <input class="search" type=""  value="Search" />
+                <img class="icon1" src="img/icon1.png" alt=""/>
+
+            </div>
+
+        </div>
+        <div id="body-1">
+           <div class="warpper">
+               <div id="center">
+                   <div id="img-box">
+                       <a href=""><img class="selected" src="img/center1.png" alt=""/></a>
+                       <a href=""><img src="img/center2.png" alt=""/></a>
+                       <a href=""><img src="img/center3.jpg" alt=""/></a>
+                   </div>
+                   <div >
+                       <span><img id="prev" src="img/prev.png" alt=""/></span>
+                       <span><img id="next" src="img/next.png" alt=""/></span>
+                   </div>
+               </div>
+           </div>
+       </div>
+        <div id="body-2">
+            <div class="warpper">
+               <div id="icon-box">
+                   <li>
+                       <p class="title">Web Design</p>
+                       <img class="img-icon-1" src="img/icon-1.png" alt=""/>
+                       <p class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus, lacus ac commodo volutpat, felis odio pulvinar enim, non dapibus mauris nulla sed ipsum.</p>
+                       <h1>READ MORE</h1>
+                   </li>
+
+                   <li>
+                       <p class="title">Social Media</p>
+                       <img src="img/icon-2.png" alt=""/>
+                      <p class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus, lacus ac commodo volutpat, felis odio pulvinar enim, non dapibus mauris nulla sed ipsum.</p>
+                       <h1>READ MORE</h1>
+                   </li>
+
+                   <li>
+                       <p class="title">Social Media</p>
+                       <img src="img/icon-3.png" alt=""/>
+                       <p class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus, lacus ac commodo volutpat, felis odio pulvinar enim, non dapibus mauris nulla sed ipsum.</p>
+                       <h1>READ MORE</h1>
+                   </li>
+               </div>
+            </div>
+        </div>
+        <div id="body-3">
+           <div class="warpper">
+               <div id="btn">
+                   <p class="our">Our Works</p>
+                   <li><a href=""><img class="btn-1" src="img/btn-1.png" alt=""/></a></li>
+                   <li><a href=""><img class="btn-1"src="img/btn-2.png" alt=""/></a></li>
+                   <li><a href=""><img class="btn-1"src="img/btn-3.png" alt=""/></a></li>
+                   <li><a href=""><img class="btn-1"src="img/btn-4.png" alt=""/></a></li>
+                   <li><a href=""><img src="img/btn-5.png" alt=""/></a></li>
+                   <li><a href=""><img src="img/btn-6.png" alt=""/></a></li>
+                   <li><a href=""><img src="img/btn-7.png" alt=""/></a></li>
+                   <li><a href=""><img src="img/btn-8.png" alt=""/></a></li>
+               </div>
+           </div>
+       </div>
+        <div id="body-4">
+            <div class="warpper">
+                <div id="bg">
+                        <div id=""><p class="clients">Clients</p></div>
+                        <li><img class="prev-1" src="img/prev-1.png" alt=""/></li>
+                        <li><img class="cnn-1" src="img/cnn-1.png" alt=""/></li>
+                        <li><img class="fujililm" src="img/fujifilm-1.png" alt=""/></li>
+                        <li><img class="casio" src="img/casio-1.png" alt=""/></li>
+                        <li><img class="AparementFinder" src="img/AparementFinder-1.png" alt=""/></li>
+                        <li><img class="next-1" src="img/next-1.png" alt=""/></li>
+                </div>
+            </div>
+        </div>
+        <div id="body-5">
+            <div class="warpper">
+                <ul class="nav-1">
+                    <li class="home"><a href="#">Home</a></li>
+                    <li class="home"><a href="#">About</a></li>
+                    <li class="home"><a href="#">Services</a></li>
+                    <li class="home"><a href="#">Works</a></li>
+                    <li class="home"><a href="#">Blog</a></li>
+                    <li class="home"><a href="#">Contact Us</a></li>
+                    <div>
+                        <img class="facebook" src="img/facebook.png" alt=""/>
+                    </div>
+                    <div id="foot">
+                        <p>© 2013 BlueBox.  All Rights Reserved.</p>
+                    </div>
+                    <div id="foot-1">
+                        <p>The logos used in the design are the property of their respective owners / copyright holders.</p>
+                    </div>
+                </ul>
+
+            </div>
+        </div>
+
+
+        <script>
+            var oBody1 = document.getElementById('body-1');
+            var oCenter = document.getElementById('center')
+            var oImgBox = document.getElementById('img-box');
+            var aImg = oImgBox.getElementsByTagName('img');
+            var oPrev = document.getElementById('prev');
+            var oNext = document.getElementById('next');
+            var iNow = 0;
+            oPrev.onclick = function(){
+                iNow++;
+            }
+
+        </script>
+</body>
+</html>

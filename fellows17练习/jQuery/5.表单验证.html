@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+      <div class="sub">
+          <input type="submit" value="提交" id="send"/>
+          <input type="reset" id="res"/>
+      </div>
+      <script src="jquery-1.12.4.js"></script>
+      <script>
+          $('.required').on('focus',function(){
+              $(this).siblings('.on-error').show();
+          }).on('keyup',function(){
+              var $this = $(this);
+              if($this.is('username')) {
+                  if ($this.val().length >= 6){
+                      $this.siblings('.on-error').hide().end().siblings('.on-success').show();
+                  }
+              }
+          })
+      </script>
+</body>
+</html>

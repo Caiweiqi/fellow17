@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;/*a标签去掉下划线*/
+}
+#header{
+    display: -webkit-box;
+    height: 100px;
+}
+#main-nav{
+    -webkit-box-flex: 5;
+    width: 0;
+    padding-left: 33px;
+}
+#main-nav .menu_icon{
+    padding-top: 32px;
+}
+#main-nav p{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    width: 30px;
+    text-align: center;
+    opacity: 0.7;
+    cursor: pointer;
+}
+#logo{
+    -webkit-box-flex: 2;
+    width: 0;
+    text-align: center;
+}
+#logo img{
+    width: 73px;
+    max-width: 100%;
+    padding-top: 14px;
+}
+#user-info{
+    -webkit-box-flex: 5;
+    width: 0;
+}
+#user-title{
+    padding-top: 35px;
+    font-size: 16px;
+    text-align: right;
+    color: #4e4e4e;
+}
+#user-login{
+    text-align: right;
+    color: #4e4e4e;
+}
+#user-login a{
+    color: #b89f7a;
+    font-size: 14px;
+    font-weight: 700;
+}
+@media screen and  (max-width:991px ){
+   /*#body-0{*/
+       /*background:url("../img/big-mobile.jpg")0 0  no-repeat;*/
+       /*background-size:cover;*/
+       /*padding-top: 85%;*/
+   /*}*/
+    /*#big-desktop img{*/
+        /*display: none;*/
+    /*}*/
+
+}
+@media screen and (max-width: 768px) {
+    #main-nav{
+        padding-left: 15px;
+    }
+    #user-info{
+        padding-right: 10px;
+    }
+    #user-info p{
+        font-size: 12px;
+    }
+    #user-info a{
+        font-size: 12px;
+    }
+}
+/**/

@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+        var startTime = function(){
+            var today = new Date();
+            var hour = today.getHours();
+            var min = today.getMinutes();
+            var s = today.getSeconds();
+            min = checked(min);
+            s = checked(s);
+            document.getElementById('text').innerHTML = hour+":"+min+":"+s;
+            t = setTimeout('startTime()',500);
+        }
+        var checked = function(i){
+            if(i<10){
+                i = "0" + i;
+            }
+            return i;
+        };
+    </script>
+    <title>js实时钟表</title>
+</head>
+<body onload="startTime()">
+<div id="text"></div>
+</body>
+</html>

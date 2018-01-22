@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Olympic Logo</title>
+    <script type="text/javascript">
+        //====================================================
+        // Name: olympic_logo.html
+        //  Des: 不断转动的水彩五环
+        // 2014年 4月29日  Create by 风小锐
+        //====================================================
+        //想要实现一个五环图案，首先定义好五环的中心坐标、半径，在每个环中存有其中包含
+        //的所有粒子，使用循环依次画出其中的每个粒子。
+        var particleNum = window.innerWidth / 15;
+        var offset=5;                           //每个粒子到圆心的偏移量
+        var color = ["blue","black","red","yellow","green"];
+        var RADIUS = window.innerWidth / 10;    //圆的半径
+        var canvas;
+        var ctx;
+        var circles=[];
+        var SPEED_MIN = RADIUS/2;
+        var SPEED_MAX = RADIUS;
+        var fps=24;                             //动画运行的帧数
+
+        //入口函数
+        function init(){
+            canvas = document.getElementById('canvas');
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            ctx = canvas.getContext('2d');
+            initCircles();
+            //drawAll();
+            setInterval(drawAll,1000/fps);
+        }
+
+        //初始化所有环
+        function initCircles(){
+            var circle;
+            for(var i = 1;i <= 3;i++){
+                circle = new Circle(i,1,RADIUS,color[i - 1]);
+                initParticles(circle);
+                circles.push(circle);
+            }
+            circle = new Circle(1,2,RADIUS,color[3]);
+            initParticles(circle);
+            circles.push(circle);
+
+            circle = new Circle(2,2,RADIUS,color[4]);
+            initParticles(circle);
+            circles.push(circle);
+        }
+
+        //初始化一个环中的所有粒子
+        function initParticles(circle){
+            var ptc;
+            var i;
+            for(i=0;i<particleNum;i++){
+                ptc=new Particle(circle.centerX, circle.centerY, 2*Math.PI*i/particleNum, circle.radius, circle.color);
+                circle.particles.push(ptc);
+            }
+        }
+
+        //绘制所有的元素
+        function drawAll(){
+            var i;
+            ctx.clearRect(0,0,window.innerWidth,window.innerHeight);
+            for(i=0;i<5;i++)
+                circles[i].draw();
+        }
+
+        //定义环，包含圆心位置半径颜色信息
+        function Circle(cx,cy,r,_color){
+            if(cy == 1){        //上面三个环
+                this.centerX = r + 2 * r * (cx - 1) + ((window.innerWidth / 2) - 3 * r);
+                this.centerY = r * cy + ((window.innerHeight / 2) - 1.5 * r);
+            }else{              //下面两个环
+                this.centerX = r + 2 * r * (cx - 1) + r + ((window.innerWidth / 2) - 3 * r);
+                this.centerY = r * cy + ((window.innerHeight / 2) - 1.5 * r);
+            }
+
+            this.radius = r;
+            this.color = _color;
+            this.particles=[];
+            //依次画出一个环中的所有粒子
+            this.draw= function(){
+                var i;
+                for(i=0;i<particleNum;i++){
+                    this.particles[i].draw();
+                    this.particles[i].move();
+                }
+            };
+        }
+
+        //定义粒子，这里输入圆环的圆心和半径、颜色
+        function Particle(cx,cy,_angle,_radius,_color){
+            this.radius = getRandomNum(5,10);   //粒子的半径
+            this.color=setColor(_color);        //获取一个颜色，16进制rgb
+            //旋转中心坐标
+            this.rotateCenterX = cx;
+            this.rotateCenterY = cy;
+            //角度
+            this.angle = _angle;
+            //角速度，随机得到大小和方向
+            if(getRandomNum(1,10) % 2 == 0){
+                this.speed =  Math.PI / (getRandomNum(SPEED_MIN,SPEED_MAX));
+            }else{
+                this.speed =  - Math.PI / (getRandomNum(SPEED_MIN,SPEED_MAX));
+            }
+            //到旋转中心的距离
+            this.distance=_radius+getRandomNum(-offset,offset);
+            //圆心的坐标
+            this.centerX =this.rotateCenterX+this.distance*Math.cos(this.angle);
+            this.centerY =this.rotateCenterY-this.distance*Math.sin(this.angle);
+            //绘制粒子
+            this.draw =function(){
+                ctx.fillStyle=this.color;
+                ctx.beginPath();
+                ctx.arc(this.centerX,this.centerY,this.radius,0,2*Math.PI,true);
+                ctx.closePath();
+                ctx.fill();
+            };
+
+            //移动该粒子
+            this.move =function(){
+                this.angle += this.speed;       //角度加上角速度
+                //根据新的角度计算粒子坐标
+                this.centerX =this.rotateCenterX+this.distance*Math.cos(this.angle);
+                this.centerY =this.rotateCenterY+this.distance*Math.sin(this.angle);
+            };
+        }
+
+        //   取得随机数
+        function getRandomNum( min, max ) {
+            return ( Math.random() * ( max - min ) + min ) | 0;
+        }
+
+        //根据选择的颜色随机选择一个rgb值并返回
+        function setColor(_color){
+            var fillStyle;
+            switch(_color){
+                case "blue":
+                    switch((Math.random() * 5 | 0 ) % 5){
+                        case 0:
+                            fillStyle="#0B5FA5";
+                            break;
+                        case 1:
+                            fillStyle="#25547B";
+                            break;
+                        case 2:
+                            fillStyle="#043C6B";
+                            break;
+                        case 3:
+                            fillStyle="#3F8FD2";
+                            break;
+                        case 4:
+                            fillStyle="#66A1D2";
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+                case "black":
+                    switch((Math.random() * 5 | 0 ) % 5){
+                        case 0:
+                            fillStyle="#000";
+                            break;
+                        case 1:
+                            fillStyle="#111";
+                            break;
+                        case 2:
+                            fillStyle="#191919";
+                            break;
+                        case 3:
+                            fillStyle="#2a2a2a";
+                            break;
+                        case 4:
+                            fillStyle="#3b3b3b";
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+                case "red":
+                    switch((Math.random() * 5 | 0 ) % 5){
+                        case 0:
+                            fillStyle="#FF0000";
+                            break;
+                        case 1:
+                            fillStyle="#BF3030";
+                            break;
+                        case 2:
+                            fillStyle="#A60000";
+                            break;
+                        case 3:
+                            fillStyle="#FF4040";
+                            break;
+                        case 4:
+                            fillStyle="#FF7373";
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+                case "yellow":
+                    switch((Math.random() * 5 | 0 ) % 5){
+                        case 0:
+                            fillStyle="#FFF500";
+                            break;
+                        case 1:
+                            fillStyle="#BFBA30";
+                            break;
+                        case 2:
+                            fillStyle="#A69F00";
+                            break;
+                        case 3:
+                            fillStyle="#FFF840";
+                            break;
+                        case 4:
+                            fillStyle="#FFFA73";
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+                case "green":
+                    switch((Math.random() * 5 | 0 ) % 5){
+                        case 0:
+                            fillStyle="#25D500";
+                            break;
+                        case 1:
+                            fillStyle="#3DA028";
+                            break;
+                        case 2:
+                            fillStyle="#188A00";
+                            break;
+                        case 3:
+                            fillStyle="#59EA3A";
+                            break;
+                        case 4:
+                            fillStyle="#80EA69";
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+                default:
+                    break;
+            }
+            return fillStyle;
+        }
+
+    </script>
+</head>
+
+<body onLoad="init();">
+<canvas id="canvas" >
+    Your browser doesn't support the HTML5 element canvas.
+</canvas>
+</body>
+</html>
