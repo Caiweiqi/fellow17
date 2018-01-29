@@ -114,5 +114,10 @@ module.exports = {
         contentBase:path.resolve(__dirname,'dist'),
         host:'localhost',
         port:'8081'
-    }
+    },
+ //   watchOptions:{
+  //      poll:1000,
+    //    aggregeateTimeout:500,
+    //    ignored:/node_modules/
+    //}
 }
