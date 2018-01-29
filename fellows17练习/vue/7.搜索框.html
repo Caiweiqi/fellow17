@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .red{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="div">
+            <input type="text"  v-model="a" > 
+            <button v-on:click='fn()'>add</button>  
+            <ul>
+                <li v-for='obj in arr' @click='change()' :class='{red:obj.isRed}'>{{obj.name}}</li>
+               
+            </ul>
+    </div>  
+    <script src="vue.js"></script>
+    <script>
+         
+         var vm =new Vue({
+             el:'#div',
+             data:{
+                a:'',
+                arr:[],
+             },
+             methods:{
+                 fn:function(){
+                     var obj = {
+                         name:this.a,
+                         isRed:false
+                     }
+                     this.arr.push(obj);
+                     this.a = "";
+                     this.arr.sort(function(x,y){
+                         return x.name>y.name;
+                     });
+                 },
+                 change(o){
+                     o.isRed = !o.isRed;
+                 }
+             }
+         });
+     
+    
+    
+    
+    </script>
+</body>
+</html>
