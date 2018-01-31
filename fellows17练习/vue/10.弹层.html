@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .title{
+            width: 200px;
+            height: 200px;
+            background: pink;
+        }
+        span{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="div">
+            <button @click="d()">登录</button>
+            <button @click="z()">注册</button>
+            
+                <demo v-show="dl" title="登录">
+                    用户名<input type="text"><br>
+                    密码<input type="text"><br>
+                </demo>
+
+         
+                <demo v-show="zc" title="注册">
+                    新的用户名<input type="text"><br/>
+                    新的密码<input type="text"><br/>
+                    确认密码<input type="text"><br/>
+                </demo>
+                
+           
+    </div>
+    <script src="vue.js"></script>
+    <script type="text/x-template" id="temp">
+           <div class="title">
+                {{title}}
+               <slot>
+                  
+                    <span>x</span>                                         
+               </slot>
+           </div> 
+          
+    </script>
+    <script>
+           var vm = new Vue({
+            el:'#div',
+            data:{
+               dl:false,
+               zc:false
+            },
+            methods:{
+                d:function(){
+                   this.dl = true; 
+                },
+                z:function(){
+                   this.zc = true; 
+                }
+            },
+            components:{
+                demo:{
+                    template:'#temp',
+                    props:['title','content']
+                    
+                }
+            }
+            
+        })
+    
+    
+    
+    </script>
+</body>
+</html>

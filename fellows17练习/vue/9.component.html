@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div">
+        
+       <demo title="这是title" content="那是content"></demo>
+       <demo title="那是title" content="这是content"></demo>
+    </div>
+
+    <script src="vue.js"></script>
+    <script type="text/x-template"></script>
+    <script>
+        // Vue.component('demo',{
+        //     template:'<div><h1>1</h1><p>1<p></div>'
+        // }).
+        var vm = new Vue({
+            el:'#div',
+            data:{
+               
+            },
+            components:{
+                demo:{
+                    template:'<div><h1>{{title}}</h1><p>{{content}}<p></div>',
+                    props:['title','content']
+                    
+                }
+            }
+            
+        })
+    
+    
+    </script>
+</body>
+</html>

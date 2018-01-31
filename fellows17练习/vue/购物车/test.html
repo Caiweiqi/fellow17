@@ -29,9 +29,9 @@
                 </tr>
             </thead>
             <tbody id="product-list">
-                <tr v-for="obj in proList">
+                <tr v-for="(obj,index) in proList">
                     <td>
-                        <input type="checkbox">
+                        <input type="checkbox" v-model="checkPro" :value="obj">
                     </td>
                     <td>
                         <img :src="obj.productImg" alt="" width="100">
@@ -45,13 +45,13 @@
                     </td>
                     <td class="price">{{obj.productPrice}}</td>
                     <td>
-                        <button class="sub">-</button>
+                        <button class="sub" @click="sub(obj)">-</button>
                         <input type="text" :value="obj.productQuentity">
-                        <button class="add">+</button>
+                        <button class="add" @click="obj.productQuentity++">+</button>
                     </td>
                     <td class="total-price">{{obj.productQuentity*obj.productPrice}}</td>
                     <td>
-                        <a href="javascript:;" class="del">删除</a>
+                        <a href="javascript:;" class="del" @click="del(index,obj)">删除</a>
                     </td>
                 </tr>
             </tbody>
@@ -61,7 +61,7 @@
                     </td>
                     <td>
                         总计：
-                        <span id="total">0</span>
+                        <span id="total">{{total}}</span>
                     </td>
                     <td>
                         <button>结账</button>
@@ -77,7 +77,31 @@
         var vm = new Vue({
             el:'#cart',
             data:{
-                proList:[]
+                proList:[],
+                checkPro:[]
+            },
+            methods:{
+                sub(obj){
+                    if(obj.productQuentity >0){
+                        obj.productQuentity--;
+                    }
+                           
+                },
+                del(idx,obj){
+                    this.proList.splice(idx,1);
+                    this.checkPro.splice(this.checkPro.indexOf(obj),1);
+                }
+                
+            },
+            computed:{
+                total:function(){
+                    var sum=0;
+                    for(var i = 0;i < this.checkPro.length;i++){
+                        sum += this.checkPro[i].productQuentity * this.checkPro[i].productPrice ; 
+                   }
+                   return sum;
+                }
+
             },
             beforeCreate:function(){
                 axios.get('cart.json').then( (res) =>{
