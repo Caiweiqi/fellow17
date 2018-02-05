@@ -30,6 +30,8 @@
             }
         },
         mounted:function(){
+            this.$store.commit('change','rgb(33,150,243)'),
+            this.$store.commit('changes','Movie'),
             axios.get(API_INTERFACE+'http://m.maoyan.com/movie/'+this.$route.params.id+'.json').then((res)=>{
                 this.details = res.data.data.MovieDetailModel
             }).catch(()=>{
@@ -59,7 +61,7 @@
         font-weight: bold;
     }
     .detail-info p{
-        font-size: 0.2rem;
+        font-size: 0.25rem;
     }
     h1{
         font-size:0.4rem;
@@ -70,9 +72,9 @@
         border-bottom: 1px solid #ccc;
     }
     .detail-content p{
-        font-size: 0.2rem;
+        font-size: 0.25rem;
     } 
     .detail-content div{
-        font-size: 0.2rem;
+        font-size: 0.25rem;
     } 
 </style>
