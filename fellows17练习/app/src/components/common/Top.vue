@@ -9,14 +9,15 @@
 
 <script>
     export default {
-        
+
+
     }
 </script>
 
 <style scoped>
     .com-top{
         height: 1rem;
-        background:rgb(33, 150, 243); 
+        background:rgb(33, 150, 243);
         position: fixed;
         top:0;
         left: 0;
@@ -35,6 +36,6 @@
         line-height: 1rem;
         text-align: center;
         color: #fff;
-        font-size :0.7rem; 
+        font-size :0.7rem;
     }
 </style>
