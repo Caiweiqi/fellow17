@@ -15,7 +15,6 @@ const mutations = {
     changes(state,topTitle){
       state.topTitle=topTitle
     }
-    
 }
 
 export default new Vuex.Store({
