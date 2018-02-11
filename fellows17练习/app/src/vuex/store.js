@@ -8,8 +8,6 @@ const state = {
     topTitle:''
 }
 
-
-
 const mutations = {
     change(state,bgColor){
       state.bgColor=bgColor
