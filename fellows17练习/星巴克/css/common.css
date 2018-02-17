@@ -6,8 +6,6 @@ a{
     text-decoration: none;/*a标签去掉下划线*/
 }
 #header{
-
-
     display: -webkit-box;
     height: 100px;
 }
