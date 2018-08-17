@@ -1,24 +1,115 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head lang="en">-->
+    <!--<meta charset="UTF-8">-->
+    <!--<meta name="viewport"-->
+          <!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>-->
 
-    <title></title>
-    <link rel="stylesheet" href="css1.css"/>
-    <link rel="stylesheet" href="css2.css" media="(max-width:960px)"/>
+    <!--<title></title>-->
+    <!--<link rel="stylesheet" href="css1.css"/>-->
+    <!--<link rel="stylesheet" href="css2.css" media="(max-width:960px)"/>-->
+    <!--<style>-->
+        <!--.one{-->
+            <!--height: 500px;-->
+            <!--background: #000;-->
+            <!--width: 500px;-->
+            <!--border: 20px solid #ff6600;-->
+            <!--box-sizing: border-box;-->
+        <!--}-->
+        <!--.div1{-->
+            <!--width: 200px;-->
+            <!--height: 200px;-->
+            <!--background: pink;-->
+        <!--}-->
+        <!--.div2{-->
+            <!--width: 100px;-->
+            <!--height: 200px;-->
+            <!--background: darkgray;-->
+        <!--}-->
+
+    <!--</style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div class="one">-->
+    <!--<div class="div1"></div>-->
+    <!--<div class="div2"></div>-->
+
+
+<!--</div>-->
+
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 过渡</title>
     <style>
-        *{
+        body {
             margin: 0;
             padding: 0;
+            background-color: #eeeeee;
         }
-        #div1{
-            height: 50px;
+
+        .content {
+            width: 800px;
+            height: 320px;
+            padding-left: 20px;
+            margin: 80px auto;
+        }
+
+        .item {
+            width: 230px;
+            height: 300px;
+            text-align: center;
+            margin-right: 20px;
+            background-color: #FFF;
+            float: left;
+            position: relative;
+            top: 0;
+            overflow: hidden; /* 让溢出的内容隐藏起来。意思是让下方的橙色方形先躲起来 */
+            transition: all .5s; /* 从最初到鼠标悬停时的过渡 */
+        }
+
+        .item img {
+            margin-top: 30px;
+        }
+
+        .item .desc {
+            position: absolute;
+            left: 0;
+            bottom: -80px;
+            width: 100%;
+            height: 80px;
+            background-color: #ff6700;
+            transition: all .5s;
+        }
+
+        /* 鼠标悬停时，让 item 整体往上移动5px，且加一点阴影 */
+        .item:hover {
+            top: -5px;
+            box-shadow: 0 0 15px #AAA;
+        }
+
+        /* 鼠标悬停时，让下方的橙色方形现身 */
+        .item:hover .desc {
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <div id="div1"></div>
+<div class="content">
+    <div class="item">
+        <img src="./images/1.png" alt="">
+    </div>
+
+    <div class="item">
+        <img src="./images/2.png" alt="">
+        <span class="desc"></span>
+    </div>
+    <div class="item">
+        <img src="./images/3.jpg" alt="">
+        <span class="desc"></span>
+    </div>
+</div>
 </body>
-</html>
