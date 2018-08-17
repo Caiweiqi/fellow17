@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        /*https://blog.csdn.net/Night_Emperor/article/details/80401115*例子链接*/
+        .box {
+            width: 200px;
+            height: 440px;
+            margin: 50px auto;
+            position: relative;
+        }
+        .img{
+            width: 100%;
+            height: 100%;
+            transition: all 1.5s;
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform-origin: center bottom;
+            box-shadow: 1px 1px 1px  #EEEEEE;
+            background: firebrick;
+        }
+
+        .box:hover .img:nth-child(6) {
+            transform: rotate(-10deg);
+            background: red;
+        }
+
+        .box:hover .img:nth-child(5) {
+            transform: rotate(-20deg);
+            background: orange;
+        }
+
+        .box:hover .img:nth-child(4) {
+            transform: rotate(-30deg);
+            background: yellow;
+        }
+
+        .box:hover .img:nth-child(3) {
+            transform: rotate(-40deg);
+            background: yellowgreen;
+        }
+
+        .box:hover .img:nth-child(2) {
+            transform: rotate(-50deg);
+            background: green;
+        }
+
+        .box:hover .img:nth-child(1) {
+            transform: rotate(-60deg);
+            background: blue;
+        }
+
+        .box:hover .img:nth-child(8) {
+            transform: rotate(10deg);
+            background: deeppink;
+        }
+
+        .box:hover .img:nth-child(9) {
+            transform: rotate(20deg);
+            background: hotpink;
+        }
+
+        .box:hover .img:nth-child(10) {
+            transform: rotate(30deg);
+            background: pink;
+        }
+
+        .box:hover .img:nth-child(11) {
+            transform: rotate(40deg);
+            background: #ff6600;
+        }
+
+        .box:hover .img:nth-child(12) {
+            transform: rotate(50deg);
+            background: darkorange;
+        }
+
+        .box:hover .img:nth-child(13) {
+            transform: rotate(60deg);
+            background: darksalmon;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+</div>
+</body>
