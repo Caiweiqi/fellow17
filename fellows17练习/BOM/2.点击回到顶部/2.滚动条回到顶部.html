@@ -26,15 +26,18 @@
     </style>
 <body>
     这是顶部
-   <a href="#" id="go-top"></a>
+   <a href="javascript:;" id="go-top"></a>
    <script>
        var oGo = document.getElementById("go-top");
        oGo.onclick = function () {
-           var Scrolltop = document.body.scrollTop || document.documentElement.scrollTop;
-           var time = function () {
-               window.scrollTo( 0 ,0);
-               console.log(ScrollTop);
-           }
+           var Scrolltop =  document.documentElement.scrollTop ||document.body.scrollTop ;
+           var timer = setInterval( function () {
+               window.scrollTo( 0 ,Scrolltop *= 0.6 );
+               console.log(Scrolltop);
+               if (Scrolltop <= 1) {
+                   clearInterval(timer)
+               }
+           },50)
        }
    </script>
 </body>
