@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    background: #ffcccc;
+    height: 100%;
+    position: fixed;
+}

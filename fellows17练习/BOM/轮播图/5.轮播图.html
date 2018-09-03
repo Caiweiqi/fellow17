@@ -17,12 +17,7 @@
             height: 344px;
             margin: 50px auto;
             position: relative;
-        }
-        #img-box img{
-            display: none;
-        }
-        #img-box .selected{
-            display: block;
+            overflow: hidden;
         }
         #tab{
             position: absolute;
@@ -41,7 +36,30 @@
             cursor: pointer;
         }
         #tab li.selected{
-            background: orange;;
+            background: orange;
+        }
+        #prev-btn, #next-btn{
+            position: absolute;
+            bottom: 10px;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            background: #000000;
+            color: #fff;
+        }
+        #prev-btn{
+            left: 10px;
+        }
+        #next-btn{
+            left: 35px;
+        }
+        #img-box{
+            width: 2720px;
+            position: absolute;
+        }
+        #img-box img{
+            float: left;
         }
     </style>
 </head>
@@ -59,8 +77,22 @@
             <li>3</li>
             <li>4</li>
         </ul>
-        <span>&lt;</span>
-        <span>&gt;</span>
     </div>
+    <script src="jslib.js"></script>
+    <script>
+        var oImgBox = document.getElementById('img-box');
+        var oTab = document.getElementById('tab');
+        var aLi = oTab.getElementsByTagName('li');
+        for ( var i = 0;i<aLi.length;i++){
+            aLi[i].index = i;
+            aLi[i].onmousemove = function () {
+                for( var j = 0;j<aLi.length;j++){
+                    aLi[j].className = ''
+                }
+                this.className = 'selected';
+                animate(oImgBox,{left:-this.index * 680})
+            }
+        }
+    </script>
 </body>
 </html>
