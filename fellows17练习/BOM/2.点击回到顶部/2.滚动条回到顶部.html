@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 2000px;
+        }
+        #go-top{
+            width: 35px;
+            height: 74px;
+            background: url("go-top.jpeg") -22px 0 no-repeat;
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+        }
+        #go-top:hover{
+            background: url("go-top.jpeg") -113px 1px no-repeat;
+        }
+    </style>
+<body>
+    这是顶部
+   <a href="#" id="go-top"></a>
+   <script>
+       var oGo = document.getElementById("go-top");
+       oGo.onclick = function () {
+           var Scrolltop = document.body.scrollTop || document.documentElement.scrollTop;
+           var time = function () {
+               window.scrollTo( 0 ,0);
+               console.log(ScrollTop);
+           }
+       }
+   </script>
+</body>
+</html>

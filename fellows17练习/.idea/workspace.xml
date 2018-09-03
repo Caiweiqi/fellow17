@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/BOM/轮播图/5.轮播图.html" line="81" />
+    <bookmark url="file://$PROJECT_DIR$/BOM/轮播图/5.轮播图.html" line="63" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8628043f-5fed-4dca-8135-211987618b02" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BOM/轮播图/jslib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/个人/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/个人/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="8628043f-5fed-4dca-8135-211987618b02" name="Default" comment="轮播图①">
+      <change afterPath="$PROJECT_DIR$/BOM/2.点击回到顶部/2.滚动条回到顶部.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOM/2.点击回到顶部/go-top.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOM/轮播图/5.轮播图.html" beforeDir="false" afterPath="$PROJECT_DIR$/BOM/轮播图/5.轮播图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOM/2.滚动条回到顶部.html" beforeDir="false" />
     </list>
     <ignored path="fellows17练习.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,13 +51,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="43" />
-          <entry key="html" value="652" />
+          <entry key="html" value="832" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="43" />
-          <entry key="HTML" value="652" />
+          <entry key="HTML" value="832" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -88,20 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BOM/轮播图/5.轮播图.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BOM/轮播图/jslib.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="304">
+              <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -115,9 +105,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BOM/2.滚动条回到顶部.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BOM/2.点击回到顶部/2.滚动条回到顶部.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -147,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jQuery/jQuery练习/7_网上商城/index.html" />
-        <option value="$PROJECT_DIR$/jQuery/17_网上商城/styles/main.css" />
         <option value="$PROJECT_DIR$/jQuery/17_网上商城/script/index.js" />
         <option value="$PROJECT_DIR$/jQuery/17_网上商城/index.html" />
         <option value="$PROJECT_DIR$/jQuery/17_网上商城/detail.html" />
@@ -198,6 +190,8 @@
         <option value="$PROJECT_DIR$/css吸顶效果.html" />
         <option value="$PROJECT_DIR$/BOM/轮播图/jslib.js" />
         <option value="$PROJECT_DIR$/BOM/轮播图/5.轮播图.html" />
+        <option value="$PROJECT_DIR$/BOM/2.滚动条回到顶部.html" />
+        <option value="$PROJECT_DIR$/BOM/2.点击回到顶部/2.滚动条回到顶部.html" />
       </list>
     </option>
   </component>
@@ -215,8 +209,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="182" />
-    <option name="y" value="18" />
+    <option name="x" value="258" />
+    <option name="y" value="11" />
     <option name="width" value="1464" />
     <option name="height" value="988" />
   </component>
@@ -246,7 +240,7 @@
               <item name="fellows17练习" type="b2602c69:ProjectViewProjectNode" />
               <item name="fellows17练习" type="462c0819:PsiDirectoryNode" />
               <item name="BOM" type="462c0819:PsiDirectoryNode" />
-              <item name="轮播图" type="462c0819:PsiDirectoryNode" />
+              <item name="2.点击回到顶部" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fellows17练习" type="b2602c69:ProjectViewProjectNode" />
@@ -282,19 +276,19 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\webstorm练习\fellows17练习\移动端开发\jQueryMobile" />
-      <recent name="F:\webstorm练习\fellows17练习\移动端开发" />
-      <recent name="F:\webstorm练习\fellows17练习\移动端开发\img" />
-      <recent name="F:\webstorm练习\fellows17练习\jQuery\弹层" />
-      <recent name="F:\webstorm练习\fellows17练习\jQuery\17_网上商城\script" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\fellow17\fellows17练习\BOM\点击回到顶部" />
       <recent name="F:\webstorm练习\fellows17练习\星巴克\css" />
       <recent name="F:\webstorm练习\fellows17练习\移动端开发\响应式设计" />
       <recent name="F:\webstorm练习\fellows17练习\响应式" />
       <recent name="F:\webstorm练习\fellows17练习\整站开发\img" />
-      <recent name="F:\webstorm练习\fellows17练习\css3\旋转的照片墙" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\fellow17\fellows17练习\BOM\2.点击回到顶部" />
+      <recent name="F:\webstorm练习\fellows17练习\移动端开发\jQueryMobile" />
+      <recent name="F:\webstorm练习\fellows17练习\移动端开发" />
+      <recent name="F:\webstorm练习\fellows17练习\移动端开发\img" />
+      <recent name="F:\webstorm练习\fellows17练习\jQuery\弹层" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,15 +341,30 @@
       <workItem from="1535446165915" duration="624000" />
       <workItem from="1535512175123" duration="35000" />
       <workItem from="1535942187160" duration="5641000" />
-      <workItem from="1535958089954" duration="3789000" />
+      <workItem from="1535958089954" duration="6688000" />
     </task>
+    <task id="LOCAL-00001" summary="轮播图①">
+      <created>1535962187756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535962187756</updated>
+    </task>
+    <task id="LOCAL-00002" summary="轮播图①">
+      <created>1535962405944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535962405944</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19069000" />
+    <option name="totallyTimeSpent" value="21968000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="182" y="18" width="1464" height="988" extended-state="0" />
+    <frame x="258" y="11" width="1464" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22720897" />
@@ -411,6 +420,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="轮播图①" />
+    <option name="LAST_COMMIT_MESSAGE" value="轮播图①" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/移动端开发/jQueryMobile/img/1.jpg">
@@ -636,9 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BOM/2.滚动条回到顶部.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/BOM/1.BOM.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -648,15 +658,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BOM/轮播图/jslib.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="304">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BOM/轮播图/5.轮播图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+        <state relative-caret-position="304">
+          <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOM/2.点击回到顶部/2.滚动条回到顶部.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
         </state>
       </provider>
     </entry>
