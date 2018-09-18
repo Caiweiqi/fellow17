@@ -4,9 +4,33 @@
     <bookmark url="file://$PROJECT_DIR$/BOM/轮播图/5.轮播图.html" line="63" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8628043f-5fed-4dca-8135-211987618b02" name="Default" comment="轮播图①">
+    <list default="true" id="8628043f-5fed-4dca-8135-211987618b02" name="Default" comment="钟表">
+      <change afterPath="$PROJECT_DIR$/KOA练习/koa-demos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css3/flex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5画钟表.html" beforeDir="false" afterPath="$PROJECT_DIR$/h5画钟表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/01.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/01.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/02.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/03.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/03.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/04.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/04.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/05.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/05.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/06.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/06.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/07.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/07.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/08.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/08.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/09.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/09.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/10.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/11.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/12.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/13.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/14.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/15.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/16.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/16.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/17.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/17.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/18.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/18.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/19.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/19.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/20.js" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/20.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/demos/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/demos/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KOA练习/koa-demos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/KOA练习/koa-demos/package.json" afterDir="false" />
     </list>
     <ignored path="fellows17练习.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,43 +47,46 @@
     <session id="112877713">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="19" />
+          <entry key="html" value="26" />
           <entry key="jpg" value="4" />
-          <entry key="js" value="2" />
+          <entry key="js" value="4" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="19" />
+          <entry key="HTML" value="26" />
           <entry key="Image" value="4" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="43" />
-          <entry key="html" value="833" />
-          <entry key="txt" value="4" />
+          <entry key="html" value="889" />
+          <entry key="js" value="2" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="43" />
-          <entry key="HTML" value="833" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="HTML" value="889" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -70,37 +97,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/旋转的选项卡.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/盒模型.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/旋转(网上的效果展示).html">
+        <entry file="file://$PROJECT_DIR$/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css吸顶效果.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/h5画钟表.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="228">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -135,22 +140,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BOM/2.点击回到顶部/2.滚动条回到顶部.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="361">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BOM/go-top.jpeg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/css3/flex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" column="14" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/es6/1.text.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BOM/1.BOM.html">
+        <entry file="file://$PROJECT_DIR$/es6/2.类 继承 .html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="209">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -161,9 +179,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -173,8 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jQuery/17_网上商城/index.html" />
-        <option value="$PROJECT_DIR$/jQuery/17_网上商城/detail.html" />
         <option value="$PROJECT_DIR$/jQuery/17_网上商城/script/detail.js" />
         <option value="$PROJECT_DIR$/jQuery/jQuery原理.html" />
         <option value="$PROJECT_DIR$/jQuery/弹层.html" />
@@ -224,6 +240,8 @@
         <option value="$PROJECT_DIR$/BOM/2.点击回到顶部/2.滚动条回到顶部.html" />
         <option value="$PROJECT_DIR$/app/index.js" />
         <option value="$PROJECT_DIR$/h5画钟表.html" />
+        <option value="$PROJECT_DIR$/KOA练习/koa-demos/demos/08.js" />
+        <option value="$PROJECT_DIR$/css3/flex.html" />
       </list>
     </option>
   </component>
@@ -233,16 +251,20 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/KOA练习/koa-demos/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/KOA练习/koa-demos/package.json" />
       <path value="$PROJECT_DIR$/app/package.json" />
       <path value="$PROJECT_DIR$/es6/package.json" />
       <path value="$PROJECT_DIR$/webpack/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="346" />
-    <option name="y" value="9" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="147" />
+    <option name="y" value="6" />
     <option name="width" value="1464" />
     <option name="height" value="988" />
   </component>
@@ -267,18 +289,7 @@
             <path>
               <item name="fellows17练习" type="b2602c69:ProjectViewProjectNode" />
               <item name="fellows17练习" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fellows17练习" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fellows17练习" type="462c0819:PsiDirectoryNode" />
-              <item name="BOM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fellows17练习" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fellows17练习" type="462c0819:PsiDirectoryNode" />
-              <item name="BOM" type="462c0819:PsiDirectoryNode" />
-              <item name="2.点击回到顶部" type="462c0819:PsiDirectoryNode" />
+              <item name="css3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fellows17练习" type="b2602c69:ProjectViewProjectNode" />
@@ -288,12 +299,28 @@
             <path>
               <item name="fellows17练习" type="b2602c69:ProjectViewProjectNode" />
               <item name="fellows17练习" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fellows17练习" type="b2602c69:ProjectViewProjectNode" />
               <item name="fellows17练习" type="462c0819:PsiDirectoryNode" />
-              <item name="个人" type="462c0819:PsiDirectoryNode" />
+              <item name="KOA练习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fellows17练习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fellows17练习" type="462c0819:PsiDirectoryNode" />
+              <item name="KOA练习" type="462c0819:PsiDirectoryNode" />
+              <item name="koa-demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fellows17练习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fellows17练习" type="462c0819:PsiDirectoryNode" />
+              <item name="整站开发" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fellows17练习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fellows17练习" type="462c0819:PsiDirectoryNode" />
+              <item name="星巴克" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,7 +406,12 @@
       <workItem from="1535512175123" duration="35000" />
       <workItem from="1535942187160" duration="5641000" />
       <workItem from="1535958089954" duration="6688000" />
-      <workItem from="1536028406221" duration="1500000" />
+      <workItem from="1536028406221" duration="5470000" />
+      <workItem from="1536118466100" duration="637000" />
+      <workItem from="1536550644227" duration="48000" />
+      <workItem from="1536907832405" duration="1740000" />
+      <workItem from="1537151764731" duration="4305000" />
+      <workItem from="1537236381416" duration="1490000" />
     </task>
     <task id="LOCAL-00001" summary="轮播图①">
       <created>1535962187756</created>
@@ -395,17 +427,24 @@
       <option name="project" value="LOCAL" />
       <updated>1535962405944</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="钟表">
+      <created>1536033165239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536033165239</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23480000" />
+    <option name="totallyTimeSpent" value="35670000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="346" y="9" width="1464" height="988" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22720897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09536354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,7 +455,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
@@ -461,27 +500,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="轮播图①" />
-    <option name="LAST_COMMIT_MESSAGE" value="轮播图①" />
+    <MESSAGE value="钟表" />
+    <option name="LAST_COMMIT_MESSAGE" value="钟表" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/星巴克/img/FT-Grid (2).jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/星巴克/img/rewards_logo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/星巴克/img/rewards_logo.svg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/星巴克/img/app-mobile.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/星巴克/img/app-qr.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/星巴克/img/big-mobile.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/星巴克/img/tmall-banner-1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -583,16 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/es6/2.类 继承 .html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/es6/1.text.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/个人/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -633,44 +645,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/历史记录.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOM/轮播图/5.轮播图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOM/6.动画原理&amp;轮播图滚动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOM/go-top.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BOM/1.BOM.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.js" />
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -692,24 +667,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BOM/2.点击回到顶部/2.滚动条回到顶部.html">
+    <entry file="file://$PROJECT_DIR$/h5画钟表.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/旋转的选项卡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/旋转(网上的效果展示).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        <state relative-caret-position="456">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -720,10 +681,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h5画钟表.html">
+    <entry file="file://$PROJECT_DIR$/旋转(网上的效果展示).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOM/go-top.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOM/1.BOM.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/旋转的选项卡.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/画布.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KOA练习/koa-demos/demos/08.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="2" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KOA练习/koa-demos/demos/06.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/盒模型.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/历史记录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOM/轮播图/5.轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOM/6.动画原理&amp;轮播图滚动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BOM/2.点击回到顶部/2.滚动条回到顶部.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/flex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/2.类 继承 .html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/1.text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
         </state>
       </provider>
     </entry>
